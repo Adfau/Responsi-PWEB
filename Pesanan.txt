@@ -1,0 +1,27 @@
+Pesanan:
+Tanggal Pemesanan: 2022-07-20
+Nama Pelanggan: Adnan
+Email Pelanggan: adnan@gmail.com
+Daftar Pesanan:
+Bango Kecap Manis Pouch 1.52Kg (x1) = Rp.46300
+ABC Sambal Hijau 180 g (x1) = Rp.17935
+
+Pesanan:
+Tanggal Pemesanan: 2022-07-20
+Nama Pelanggan: Fauzan
+Email Pelanggan: fauzan@gmail.com
+Daftar Pesanan:
+Ultra UHT Milk Plain 1000 Ml (x2) = Rp.34740
+
+Pesanan:
+Tanggal Pemesanan: 2022-07-20
+Nama Pelanggan: Usman
+Email Pelanggan: usman@gmail.com
+Daftar Pesanan:
+Bango Kecap Manis Pouch 1.52Kg (x1) = Rp.46300
+Ultra UHT Milk Plain 1000 Ml (x1) = Rp.17370
+Indomilk Plain Susu Kental Manis Kaleng 370 Gram (x1) = Rp.12000
+ABC Sambal Terasi 180 g (x1) = Rp.17935
+ABC Sambal Hijau 180 g (x1) = Rp.17935
+Mamasuka Garam Reguler 250gr (x1) = Rp.1700
+

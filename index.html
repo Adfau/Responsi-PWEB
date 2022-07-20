@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Market</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="kodeRES.js"></script>
+	<link rel="stylesheet" type="text/css" href="styleRES.css">
+	<style type="text/css">
+
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 style="font-size: 50px;">Mini Market Sederhana</h1>
+	</div>
+	<div class="navbar">
+	  <a href="index.html">Home</a>
+	  <a href="lihatRES.php">Daftar Pesanan</a>
+	</div>
+	<form name="form1" method="post" action="prosesRES.php">
+	<div class="other">
+		<div>Nama</div>
+		<div><input type="text" name="nama"></div>
+		<div><br></div>
+		<div>Email</div>
+		<div><input type="text" name="email"></div>
+	</div>
+	<div class="mainbar">
+		<div class="main">
+		<div class="container">
+			<div class="box" >
+				<img src="item1.jpg">
+			</div>
+			<div class="box"><b>Bango Kecap Manis Pouch 1.52Kg</b></div>
+			<div class="box"><b>Rp46.300</b></div>
+			<div class="box2">
+				<div style="font-size: 15px"><b>Atur Jumlah</b></div>
+				<div>
+					<input class="button" type="button" id="cl1" value="-" onclick="bersihkan('jum1', 'hsl1')">
+					<input style="float: left; padding: 4px; width: 40px; text-align: center; margin-right: 10px;" type="number" name="jum1" id="jum1" min="0" max="99" value="0" onchange="hitung('jum1', 'hsl1', 46300)">
+				</div>
+				<div>
+					= Rp.<input type="text" name="hsl1" id="hsl1" value="0" readonly>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="box" >
+				<img src="item2.jpg">
+			</div>
+			<div class="box"><b>Ultra UHT Milk Plain 1000 Ml</b></div>
+			<div class="box"><b>Rp17.370</b></div>
+			<div class="box2">
+				<div style="font-size: 15px"><b>Atur Jumlah</b></div>
+				<div>
+					<input class="button" type="button" id="cl2" value="-" onclick="bersihkan('jum2', 'hsl2')">
+					<input style="float: left; padding: 4px; width: 40px; text-align: center; margin-right: 10px;" type="number" name="jum2" id="jum2" min="0" max="99" value="0" onchange="hitung('jum2', 'hsl2', 17370)">
+				</div>
+				<div>
+					= Rp.<input type="text" name="hsl2" id="hsl2" value="0" readonly>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="box" >
+				<img src="item3.jpg">
+			</div>
+			<div class="box"><b>Indomilk Plain Susu Kental Manis Kaleng 370 Gram</b></div>
+			<div class="box"><b>Rp12.000</b></div>
+			<div class="box2">
+				<div style="font-size: 15px"><b>Atur Jumlah</b></div>
+				<div>
+					<input class="button" type="button" id="cl3" value="-" onclick="bersihkan('jum3', 'hsl3')">
+					<input style="float: left; padding: 4px; width: 40px; text-align: center; margin-right: 10px;" type="number" name="jum3" id="jum3" min="0" max="99" value="0" onchange="hitung('jum3', 'hsl3', 12000)">
+				</div>
+				<div>
+					= Rp.<input type="text" name="hsl3" id="hsl3" value="0" readonly>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="box" >
+				<img src="item4.jpg">
+			</div>
+			<div class="box"><b>ABC Sambal Terasi 180 g</b></div>
+			<div class="box"><b>Rp17.935</b></div>
+			<div class="box2">
+				<div style="font-size: 15px"><b>Atur Jumlah</b></div>
+				<div>
+					<input class="button" type="button" id="cl4" value="-" onclick="bersihkan('jum4', 'hsl4')">
+					<input style="float: left; padding: 4px; width: 40px; text-align: center; margin-right: 10px;" type="number" name="jum4" id="jum4" min="0" max="99" value="0" onchange="hitung('jum4', 'hsl4', 17935)">
+				</div>
+				<div>
+					= Rp.<input type="text" name="hsl4" id="hsl4" value="0" readonly>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="box" >
+				<img src="item5.jpg">
+			</div>
+			<div class="box"><b>ABC Sambal Hijau 180 g</b></div>
+			<div class="box"><b>Rp17.935</b></div>
+			<div class="box2">
+				<div style="font-size: 15px"><b>Atur Jumlah</b></div>
+				<div>
+					<input class="button" type="button" id="cl5" value="-" onclick="bersihkan('jum5', 'hsl5')">
+					<input style="float: left; padding: 4px; width: 40px; text-align: center; margin-right: 10px;" type="number" name="jum5" id="jum5" min="0" max="99" value="0" onchange="hitung('jum5', 'hsl5', 17935)">
+				</div>
+				<div>
+					= Rp.<input type="text" name="hsl5" id="hsl5" value="0" readonly>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="box" >
+				<img src="item6.jpg">
+			</div>
+			<div class="box"><b>Mamasuka Garam Reguler 250gr</b></div>
+			<div class="box"><b>Rp1.700</b></div>
+			<div class="box2">
+				<div style="font-size: 15px"><b>Atur Jumlah</b></div>
+				<div>
+					<input class="button" type="button" id="cl6" value="-" onclick="bersihkan('jum6', 'hsl6')">
+					<input style="float: left; padding: 4px; width: 40px; text-align: center; margin-right: 10px;" type="number" name="jum6" id="jum6" min="0" max="99" value="0" onchange="hitung('jum6', 'hsl6', 1700)">
+				</div>
+				<div>
+					= Rp.<input type="text" name="hsl6" id="hsl6" value="0" readonly>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="other">
+		<p>Tekan tombol Belanja setelah anda yakin dengan pesanan anda</p>
+		<input class="button2" type="Submit" value="Belanja">
+	</div>
+	</form>
+	<div class="footer">
+		<p style="text-align: center; color: white">Copyright &#169; Adnan Fauzan Usman 2100018185</p>
+	</div>
+</body>
+</html>
